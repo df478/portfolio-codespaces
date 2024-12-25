@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/image.png";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Nuevo Hogar",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Nuevo Hogar is an online platform for dog adoption, pet product sales, and animal rescue. We connect people with pets in need and support animal welfare through donations and resources.",
+    url: "https://zen-poincare-93b4b3.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Artiisninc",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Artiisninc is an eCommerce platform offering handmade products from local communities. We support artisans by providing a marketplace for unique, high-quality goods that celebrate culture and craftsmanship.",
+    url: "https://artiisninc.vercel.app/",
   },
   {
-    title: "My Resume Site",
+    title: "Predicting Music Genre",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Music Genre Predictor is a Colab notebook that uses a Random Forest model to predict the genre of music based on audio features. The model is trained on a dataset of various music genres, providing insights into genre classification through machine learning techniques.",
+    url: "https://colab.research.google.com/drive/1I-uC4r0OorReq3CVlANQa_ctm-8V_7WA?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Fire And Root",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Fire And Root is a role-playing game set in Bolivia, where players take on the role of a hero battling devastating wildfires. The game combines action and strategy, as players navigate challenging environments, save wildlife, and protect communities from the growing threats of forest fires.",
+    url: "https://fire-and-root.vercel.app/",
   },
 ];
 
