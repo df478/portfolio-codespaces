@@ -35,7 +35,7 @@ const Home = ({ name, title }) => {
       <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
         <img
           src={arrowSvg}
-          style={{ height: "3rem", width: "3rem", animation: "1s ease-out 0s 1 bounce" }}
+          style={{ height: "3rem", width: "3rem", animation: "bounce 2s ease-out 2s infinite" }}
           alt={imageAltText}
         />
       </div>
