@@ -19,9 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/image.png";
 
-const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -49,10 +47,10 @@ const projectList = [
     url: "https://colab.research.google.com/drive/1I-uC4r0OorReq3CVlANQa_ctm-8V_7WA?usp=sharing",
   },
   {
-    title: "Fire And Root",
+    title: "Green-Earth-Lab",
     description:
-      "Fire And Root is a role-playing game set in Bolivia, where players take on the role of a hero battling devastating wildfires. The game combines action and strategy, as players navigate challenging environments, save wildlife, and protect communities from the growing threats of forest fires.",
-    url: "https://fire-and-root.vercel.app/",
+      "Nasa Space Apps Challenge - Hackaton 2024 - Virtual Classroom oriented to the 13th sdg. SDG 13, Climate Action, urges urgent action to combat climate change and its impacts. It focuses on reducing greenhouse gas emissions, enhancing resilience, and supporting climate adaptation efforts globally.",
+    url: "https://green-earth-lab.netlify.app/",
   },
 ];
 
@@ -61,18 +59,6 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{
-              height: "90%",
-              width: "100%",
-              objectFit: "cover",
-              animation: "1s ease-out 0s 1 slideInLeft",
-            }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>

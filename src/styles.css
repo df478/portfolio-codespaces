@@ -12,10 +12,6 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-}
-/* add a smooth scroll */
-
-html {
   scroll-behavior: smooth;
 }
 
@@ -52,7 +48,7 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;
@@ -129,18 +125,6 @@ img.socialIcon {
   width: 30px;
 }
 
-/* add a slide In Left animation */
-@keyframes slideInLeft {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 /* icon arrow bounce */
 
 @keyframes bounce {
@@ -159,3 +143,59 @@ img.socialIcon {
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* === Media Queries for Responsiveness === */
+
+/* Small Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Font size and spacing adjustments for the name and title */
+  h1 {
+    font-size: 2rem; /* Reduce font size for smaller screens */
+    letter-spacing: 5px; /* Adjust letter spacing */
+    text-align: left; /* Center the text */
+    
+  }
+
+  h2 {
+    font-size: 1rem; /* Adjust title size */
+    text-align: left; /* Center the text */
+  }
+
+  p.large{
+    font-size: 10px; /* Adjust paragraph size */
+    text-align: justify; /* Center the text */
+  }
+
+  ul{
+    font-size: 0.5rem; /* Adjust list size */
+    columns: 1; /* Adjust list columns */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea todos los elementos de la caja de manera centrada en el eje transversal */
+    justify-content: flex-start;
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  }
+  
+  .container .box {
+    border-radius: 10px;
+    border: 1px solid rgb(204, 204, 204);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px 16px;
+    text-align: center;
+    width: 100%; /* Asegura que la caja ocupe todo el ancho disponible */
+    max-width: 600px; /* Puedes ajustar este valor según tus necesidades */
+  }
+}
