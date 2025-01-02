@@ -26,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Eleazar Condori",
-  title: "Web Designer & Data Analyst",
+  title: "Software Development & Machine Learning",
   email: "eledavid88@gmail.com",
   gitHub: "df478",
   instagram: "",
